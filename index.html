@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>char invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>char invaders</header>
+        <div class="game-wrapper">
+            <!-- music and sound effects -->
+            <audio id="soundtrack" src="sound/soundtrack.mp3" loop></audio>
+            <audio id="levelClear" src="sound/levelClear.mp3"></audio>
+            <audio id="gameOver" src="sound/gameOver.mp3"></audio>
+            <audio id="laserSound" src="sound/laserSound.wav"></audio>
+            <audio id="explosion" src="sound/explosion.wav"></audio>
+
+            <div class="main"></div>
+            <div class = "pauseScreen" id = "pauseScreen">
+                <h1>Paused</h1>
+                <button class="btn" onclick="resumeGame()">Continue</button>
+                <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+            <div class = "win">
+                <h1>YOU WIN!</h1>
+                <h2>Play again?</h2>
+                <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+            <div class = "lose">
+                <h1>GAME OVER!</h1>
+                <h2>Play again?</h2>
+                <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <footer>
+            <p>by char (duh)</p>
+        </footer>
+    </div>
+</body>
+</html>
