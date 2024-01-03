@@ -2,7 +2,7 @@
 
 _A simple space invaders game made in Javascript, HTML and CSS as part of the 01Founders course_
 
-Currently a work in progress, but is fully playable with working sound and a pause menu. Relied heavily on [max on tech's](https://www.youtube.com/playlist?list=PL30AETbxgR-cTo-zb1iUxL4mwq0n9Vj_U) Space Invaders tutorial but with my own features and additions.
+Currently a work in progress, but is fully playable with working sound and a pause menu. Relied heavily on [max on tech's](https://www.youtube.com/playlist?list=PL30AETbxgR-cTo-zb1iUxL4mwq0n9Vj_U) Space Invaders tutorial but with my own features and additions. I previously made this before with a group (as it was required on the course) but I created this for my own learning and experimentation. 
 
 ### How to Play ###
 Move the spaceship with the left and right arrow keys. Press space to shoot. The game ends when either all the UFOs are taken down or when the player gets hit by an enemy laser.
